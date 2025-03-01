@@ -13,7 +13,9 @@ console.log(username, isStudent);
 console.log(name);
 
 // 2. Professional way - HTML Text Box
-let usernameInput;
-document.getElementById("mySubmit").oneclick = function() {
+// let usernameInput;
+// document.getElementById("mySubmit").oneclick = function() {
     
-}
+// }
+
+// Didn't understand
