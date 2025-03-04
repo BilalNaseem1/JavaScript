@@ -15,3 +15,20 @@ if (temp > 30 && temp < 40) {
 } else {
     console.log('It is neither hot nor cold');
 }
+
+// equality operators
+// 1.  ==    -       Equality - Compares the values for e.g. 10 == '10' would return true
+// 2.  ===   -       Strict Equality - Compares the values and the data type for e.g. 10 === '10' would return false
+// 3.  !=    -       Inequality - Compares the values for e.g. 10 != '10' would return false
+// 4.  !==   -       Strict Inequality - Compares the values and the data type for e.g. 10 !== '10' would return true
+
+// example
+
+let a = 10;
+let b = '10';
+
+if (a == b) {
+    console.log('a is equal to b');
+} else {
+    console.log('a is not equal to b');
+}
